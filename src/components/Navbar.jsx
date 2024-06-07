@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <Flex as="nav" p="10px" mb="60px" alignItems="center">
-      <Heading as="h1" fontSize="1.5em">Dojo Tasks</Heading>
+      <Heading as="h1" fontSize="1.5em">Chakra</Heading>
       <Spacer />
 
       <HStack spacing="20px"> 
@@ -25,7 +25,7 @@ export default function Navbar() {
             <Text fontSize="xs" color="white">3</Text>
           </AvatarBadge>
         </Avatar>
-        <Text>mario@netninja.dev</Text>
+        <Text>Arooj@gmail.com</Text>
         <Button 
           colorScheme="purple"
           onClick={() => toast({
